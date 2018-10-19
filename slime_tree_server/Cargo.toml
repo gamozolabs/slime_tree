@@ -1,0 +1,7 @@
+[package]
+name = "slime_tree_server"
+version = "0.1.0"
+authors = ["pleb <pleb@worky.gl.lan>"]
+edition = "2018"
+
+[dependencies]

@@ -1,0 +1,8 @@
+[package]
+name = "slime_tree"
+version = "0.1.0"
+authors = ["bfalk"]
+edition = "2018"
+
+[dependencies]
+rand = "0.5.5"

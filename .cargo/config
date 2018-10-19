@@ -1,0 +1,8 @@
+[target.aarch64-linux-android]
+linker = "/home/pleb/android-ndk-r18/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc"
+rustflags = ["-Clink-args=--sysroot /home/pleb/android-ndk-r18/platforms/android-28/arch-arm64 -fuse-ld=lld -L/home/pleb/android-ndk-r18/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x"]
+
+[target.arm-linux-androideabi]
+linker = "/home/pleb/android-ndk-r18/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc"
+rustflags = ["-Clink-args=--sysroot /home/pleb/android-ndk-r18/platforms/android-18/arch-arm -fuse-ld=lld -L/home/pleb/android-ndk-r18/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x"]
+
