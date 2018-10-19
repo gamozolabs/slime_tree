@@ -1,6 +1,6 @@
 # slime_tree
 
-The worlds worst Android fuzzer.
+The worlds worst Android fuzzer. Read the writeup here https://gamozolabs.github.io/fuzzing/2018/10/18/terrible_android_fuzzer.html
 
 Modify `.cargo/config` to point to your unzipped `ndk`.
 
